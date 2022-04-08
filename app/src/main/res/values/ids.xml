@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_peopleFragment_to_postsFragment" type="id" />
+    <item name="action_postsFragment_to_formFragment" type="id" />
+    <item name="action_postsFragment_to_peopleFragment" type="id" />
+</resources>
