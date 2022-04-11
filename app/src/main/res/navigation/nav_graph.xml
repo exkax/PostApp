@@ -19,5 +19,15 @@
         android:id="@+id/postsFragment"
         android:name="kg.geektech.postapp.ui.posts.PostsFragmentt"
         android:label="fragment_posts2"
-        tools:layout="@layout/fragment_posts" />
+        tools:layout="@layout/fragment_posts"
+        />
+    <action
+        android:id="@+id/action_postsFragment_to_formFragment"
+        app:destination="@id/formFragment" />
+    <action
+        android:id="@+id/action_postsFragment_to_peopleFragment"
+        app:destination="@id/peopleFragment" />
+    <action
+        android:id="@+id/action_peopleFragment_to_postsFragment"
+        app:destination="@id/postsFragment" />
 </navigation>
